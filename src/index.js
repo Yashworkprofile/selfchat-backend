@@ -8,7 +8,7 @@ module.exports = {
   bootstrap({ strapi }) {
     const io = new Server(strapi.server.httpServer, {
       cors: {
-        origin: "http://localhost:3000",
+        origin: "https://sage-churros-eb2321.netlify.app/",
         methods: ["GET", "POST"],
       },
     });
